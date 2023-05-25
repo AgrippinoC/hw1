@@ -50,11 +50,6 @@
 	<h5>Nome: <?php echo $info['name']?></h5>
 	<h5>Cognome: <?php echo $info['surname']?></h5>
 	<h5>Email: <?php echo $info['email']?></h5>
-	<h5>
-  	<input type='radio'>Maschio<br>
-  	<input type='radio'>Femmina<br>
-	<input type='radio'>Altro
-	</h5>
 	<h5>Arance preferite: 
             <div id="results">
             </div>
