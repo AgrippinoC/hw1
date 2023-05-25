@@ -18,6 +18,7 @@
     <head>
         <link rel='stylesheet' href='hw1-profile.css'>
         <script src='hw1-profile.js' defer></script>
+	<link rel="icon" type="image/x-icon" href="IMG/orange-xxl.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Profilo</title>
     </head>
