@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-size: 22px;
+  font-family: Bahnschrift;
+  text-align: center;
+  background-color: #fff8f4;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+  height: 60px;
+  background-color: #50c878;
+  margin-bottom: 3px;
+}
+
+a {
+  font-weight: bold;
+  background-color: #f6a21e;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50px;
+  border-top: 3px solid green;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #E55B13;
+  border-top: 3px solid #104210;
+}
+#l {
+  padding: 2px;
+  margin: 5px;
+  border-top: 0px;
+  text-align: center;
+}
+
+header {
+  background-image: url(IMG/background1.jpg);
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  position: relative;
+  z-index: -2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+}
+
+#uplay {
+  font-weight: bold;
+  font-family: 'Lemon', cursive, Times New Roman;
+  font-size: 3em;
+  color: white;
+  z-index: 1;
+  border: 5px solid #ffce66;
+  padding: 25px 50px;
+  background-color: rgba(255, 160, 0, 0.3);
+}
+#uplay em{
+  font-size: .5em; 
+}
+
+#overlay {
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  justify-content: center;
+}
+
+#logo {
+  display: flex;
+  height: 30px;
+  background-color: black;
+  color: white;
+  align-items: center;
+  margin: 0px;
+}
+#logo img {
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+article {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 123, 0.2);
+  border: 2px solid black;
+  margin: 30px;
+  width: 69%;
+}
+
+#scheda {
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+  text-align: left;
+  border-left: 2px solid #b8390e;
+}
+
+#foto{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 10px;
+}
+#foto img{
+  width: 70%;
+  height: 70%;
+}
+
+h5{
+  margin: 6px;
+}
+
+/*MOBILE*/
+
+@media (max-width: 600px) {
+  #uplay {
+  font-size: 2em;
+  padding: 10px 15px;
+  }
+  article {
+  margin: 0 2px;
+  }
+  article {
+  flex-direction: column;
+  }
+  #scheda {
+  border-top: 2px solid #b8390e;
+  border-left: none;
+  }
+}

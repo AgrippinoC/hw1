@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    background-color: rgba(255, 255, 123, 0.2);
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+ }
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Edu NSW ACT Foundation', Times New Roman;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 5px solid #ffce66;
+    height: 100px;
+    background-color: #50c878;
+    margin-bottom: 3px;
+}
+
+#logo {
+    display: flex;
+    height: 30px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    margin: 0px;
+}
+#logo img {
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+a {
+    font-weight: bold;
+    background-color: #f6a21e;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 25px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 123, 0.2);
+    border: 2px solid orange;
+    border-radius: 20px;
+    margin: 70px;
+    padding: 10px;
+}
+
+input{
+    width: 100%;
+    height: 35px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    margin-top: 5px;
+    font-size: 15px;
+    margin-bottom: 7px;
+  }
+
+.name, .surname, .username, .email, .password, .confirm_password{
+    margin-bottom: 10px;
+}
+
+form img{
+    opacity: 0;
+    width: 10px;
+    margin-right: 10px;
+}
+form span {
+    opacity: 0;
+    font-size: 15px;
+    transition: opacity 0.5s ease;
+}
+
+.allarme{
+     padding: 3px;
+     color: red;
+}
+.allarme span {
+    opacity: 1;
+    font-size: 15px;
+    color: red;
+    background-color: #d10er3;
+}
+
+.submit input{
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 15px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #f6a21e;
+}
