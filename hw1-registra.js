@@ -78,7 +78,7 @@ function Email(event) {
 
 function Password(event) {
     const input = event.currentTarget;
-    if (formStatus.password = input.value.length >= 8) {
+    if (formStatus.password = input.value.length >= 10) {
         document.querySelector('.password').classList.remove('allarme');
     } else {
         document.querySelector('.password').classList.add('allarme');
